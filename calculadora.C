@@ -3,7 +3,8 @@
 #include "calculadoraBiblioteca.h"
 
 int main(void) {
-    int n1, n2, operacao, resultado;
+    int operacao;
+    float n1, n2, resultado;
 
     do  {
         system("cls");
@@ -25,37 +26,37 @@ int main(void) {
 
         case 1:
             printf("Digite dois numeros:\n");
-            scanf("%d%d", &n1, &n2);
+            scanf("%f%f", &n1, &n2);
             resultado = somar(n1, n2);
-            printf("O resultado de somar: %d + %d = %d\n\n", n1, n2 , resultado);
+            printf("O resultado de somar: %.2f + %.2f = %.2f\n\n", n1, n2 , resultado);
             break;
 
         case 2:
             printf("Digite dois numeros:\n");
-            scanf("%d%d", &n1, &n2);
+            scanf("%f%f", &n1, &n2);
             resultado = subdtrair(n1, n2);
-            printf("O resultado de subtrair: %d - %d = %d\n\n", n1, n2 , resultado);
+            printf("O resultado de subtrair: %.2f - %.2f = %.2f\n\n", n1, n2 , resultado);
             break;
 
         case 3:
             printf("Digite dois numeros:\n");
-            scanf("%d%d", &n1, &n2);
+            scanf("%f%f", &n1, &n2);
             resultado = multiplicar(n1, n2);
-            printf("O resultado de multiplicar: %d x %d = %d\n\n", n1, n2 , resultado);
+            printf("O resultado de multiplicar: %.2f x %.2f = %.2f\n\n", n1, n2 , resultado);
             break;
 
         case 4:
             printf("Digite dois numeros:\n");
-            scanf("%d%d", &n1, &n2);
+            scanf("%f%f", &n1, &n2);
             resultado = dividir(n1, n2);
-            printf("O resultado de dividir: %d / %d = %d\n\n", n1, n2 , resultado);
+            printf("O resultado de dividir: %.2f / %.2f = %.2f\n\n", n1, n2 , resultado);
             break;
 
         case 5:
             printf("Digite dois numeros:\n");
-            scanf("%d%d", &n1, &n2);
+            scanf("%f%f", &n1, &n2);
             resultado = modulo(n1, n2);
-            printf("O resultado do modulo (resto da divisao) de: %d / %d = %d\n\n", n1, n2 , resultado);
+            printf("O resultado do modulo (resto da divisao) de: %.2f / %.2f = %.2f\n\n", n1, n2 , resultado);
             break;
 
         default:

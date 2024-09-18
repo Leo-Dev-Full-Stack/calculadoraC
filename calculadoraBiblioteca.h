@@ -1,15 +1,15 @@
-int somar(int n1, int n2) {
-    return n1+n2;
+float somar(float n1, float n2) {
+    return n1 + n2;
 }
-int subdtrair(int n1, int n2) {
-    return n1-n2;
+float subdtrair(float n1, float n2) {
+    return n1 - n2;
 }
-int multiplicar(int n1, int n2) {
-    return n1*n2;
+float multiplicar(float n1, float n2) {
+    return n1 * n2;
 }
-int dividir(int n1, int n2) {
-    return n1/n2;
+float dividir(float n1, float n2) {
+    return n1 / n2;
 }
-int modulo(int n1, int n2) {
-    return n1%n2;
+float modulo(int n1, int n2) {
+    return n1 % n2;
 }
