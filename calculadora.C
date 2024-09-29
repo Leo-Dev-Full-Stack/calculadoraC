@@ -63,8 +63,8 @@ int main(void) {
             printf("Voce escolheu uma opcao de operacao invalida\n\n");
             break;
         }
+    system("pause");
     }
     while (operacao != 0);
     printf("SAINDO\n");
-    system("pause");
 }
