@@ -66,5 +66,5 @@ int main(void) {
     system("pause");
     }
     while (operacao != 0);
-    printf("SAINDO\n");
+    return 0;
 }
